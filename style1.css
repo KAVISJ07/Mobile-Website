@@ -1,0 +1,17 @@
+body{
+    background-image: url('logo.jpg');
+}
+.fm{
+    padding-top: 35%;
+    padding-left: 35%;
+}
+input{
+    font-size: 1.5em;
+    border:3px solid black;
+    border-radius: 15px;
+}
+button{
+    font-size: 1.5em;
+    border:3px solid black;
+    border-radius: 15px;
+}

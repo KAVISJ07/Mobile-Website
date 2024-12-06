@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <script>
+        function chick(){
+            Email=document.getElementById('Email').value;
+            if(Email==""){
+                alert("Enter a Email");
+                return false;
+            }
+        }
+    </script>
+    <div class="fm">
+    <form action="About.html" onsubmit="return chick()" autocomplete="off">
+
+      <input type="email" id="Email" placeholder="Email">
+        <button type="submit">login</button>
+    </form>
+</div>
+</body>
+</html>
